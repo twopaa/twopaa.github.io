@@ -1,0 +1,212 @@
+<html>
+<header>
+<style>
+*{
+	margin: 0;
+	font-family: sans-serif;
+}
+.menus {
+	width: 100%;
+	height: 150px;
+	background-color: rgb(219, 219, 219);
+	position: fixed;
+	display: grid;
+	z-index: 8;
+}
+.top {
+	grid-template-columns: 1fr 1fr;
+	top: 0;
+}
+.logo {
+	height: 50%;
+}
+.bottom {
+	height: 100px;
+	padding-bottom: 100px;
+	bottom: 0;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+}
+.botmenu {
+	height: 100%;
+	width: auto;
+	margin: 0;
+}
+.content {
+	height: 200vh;
+}
+.profile {
+	margin-top: 15px;
+	height: 150px;
+	line-height: 150px;
+}
+.pname {
+	font-size: 50px;
+	float: left;
+}
+.pat {
+	margin-left: 10px;
+	font-size: 40px;
+	float: left;
+}
+.more {
+	float: right;
+	height: 100px;
+	margin-top: 20px;
+	filter: opacity(60%);
+}
+img {
+	height: 80%;
+	margin-top: 15px;
+	float: left;
+	margin-right: 20px;
+}
+.likes {
+	margin: 0;
+	height: 80px;
+	width: 100vw;
+}
+.heart {
+	height: 100%;
+	color: red;
+	float: right;
+}
+.numberof {
+	height: 60%;
+	filter: saturate(0%) brightness(180%);
+	margin: 0;
+}
+.totals {
+	margin-top: 32px;
+	margin-left: 10px;
+	font-size: 80%;
+}
+.post {
+	display: flex;
+	flex-direction: column;
+}
+.post, .postimg {
+	margin: 0;
+	width: 100vw;
+	height: auto;
+	font-size: 50px;
+}
+.posttext {
+	margin: 20px;
+}
+.comments {
+	margin: 30px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 80%;
+}
+.comment {
+	filter: opacity(80%)
+}
+.timestamp {
+	font-size: 60%;
+	margin-top: 10px;
+	margin-left: 10px;
+	filter: opacity(60%)
+}
+.button {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 25px;
+  transition: all .1s;
+  font-family: inherit;
+  cursor: pointer;
+  font-size: 15px;
+  color: #111;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 1);
+  background-color: #ccc;
+  background-clip: padding-box;
+  border: 1px solid;
+  border-color: #202020 #1a1a1a #111;
+  border-radius: 2px;
+  background-image: -webkit-linear-gradient(top, #efefef, #777);
+  background-image: -moz-linear-gradient(top, #efefef, #777);
+  background-image: -o-linear-gradient(top, #efefef, #777);
+  background-image: linear-gradient(to bottom, #efefef, #777);
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.09), 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.09), 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+  background-color: #aaaaaa;
+  background-image: -webkit-linear-gradient(top, #ccc, #555);
+  background-image: -moz-linear-gradient(top, #ccc, #555);
+  background-image: -o-linear-gradient(top, #ccc, #555);
+  background-image: linear-gradient(to bottom, #ccc, #555);
+}
+.button:active, .button.active {
+  background-color: #b42f32;
+  border-color: #1c1c1c #202020 #222;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.09);
+}
+</style>
+</header>
+<body>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+<div class="top menus">
+	<img class="logo" src="./saturnaliapics/Untitled-2.png">
+	<img style="float: right; height: 50%; justify-self: end" src="./saturnaliapics/7124100 - bell.svg">
+</div>
+<div class="bottom menus">
+	<div><img class="botmenu" src="./saturnaliapics/2867911 - home.svg"></div>
+	<div><img class="botmenu" src="./saturnaliapics/7124022 - search.svg"></div>
+	<div><img class="botmenu" src="./saturnaliapics/7124054 - inbox.svg"></div>
+</div>
+<div class="content">
+	<div style="height: 150px"></div>
+<div>
+	<div class="profile">
+		<img src="./saturnaliapics/callie pfp.png">
+		<div class="pname"><b>Lilly</b></div>
+		<div class="pat">@lilly</div>
+		<div class="more"><img src="./saturnaliapics/7124025 - dots horizontal.svg"></div>
+	</div>
+	<div class="post">
+		<img class="postimg" src="./saturnaliapics/photoforfakelillysocial.jpeg">
+		<div class="likes">
+			<img class="heart" src="./saturnaliapics/2867909 - heart.svg">
+			<img class="heart" src="./saturnaliapics/2867882 - comment.svg">
+			<div class="totals">
+				17<img class="numberof" src="./saturnaliapics/2867909 - heart.svg">
+			</div>
+		</div>
+		<div class="posttext"><b>Lilly</b> I have a boyfriend</div>
+		<div class="comments">
+			<div class="comment"><b>Da'Louis</b> I am your boyfriend</div>
+			<div class="comment"><b>Lilly</b> oh hush you</div>
+		</div>
+		<div class="timestamp">posted 14 hours ago</div>
+	</div></div>
+	<div>
+		<div class="profile">
+			<img src="./saturnaliapics/callie pfp.png">
+			<div class="pname"><b>Lilly</b></div>
+			<div class="pat">@lilly</div>
+			<div class="more"><img src="./saturnaliapics/7124025 - dots horizontal.svg"></div>
+		</div>
+		<div class="post">
+			<img class="postimg" src="./saturnaliapics/photoforfakelillysocial.jpeg">
+			<div class="likes">
+				<img class="heart" src="./saturnaliapics/2867909 - heart.svg">
+				<img class="heart" src="./saturnaliapics/2867882 - comment.svg">
+				<div class="totals">
+					17<img class="numberof" src="./saturnaliapics/2867909 - heart.svg">
+				</div>
+			</div>
+			<div class="posttext"><b>Lilly</b> I have a boyfriend</div>
+			<div class="comments">
+				<div class="comment"><b>Da'Louis</b> I am your boyfriend</div>
+				<div class="comment"><b>Lilly</b> oh hush you</div>
+			</div>
+			<div class="timestamp">posted 14 hours ago</div>
+		</div></div>
+</div>
+</body>
+</html>
